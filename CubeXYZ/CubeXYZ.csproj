@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Ambient.Plugins</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <AssemblyTitle>CubeXYZ Plug-in</AssemblyTitle>
+    <Company>Ambient Games</Company>
+    <Product>Ambient Plugin</Product>
+    <Copyright>Copyright © 2012-2026 Ambient Games</Copyright>
+    <AssemblyVersion>1.0.%2a</AssemblyVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Resources\**" />
+    <EmbeddedResource Remove="Resources\**" />
+    <None Remove="Resources\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ambient.Domain\Ambient.Domain.csproj" />
+    <ProjectReference Include="..\Ambient.Application\Ambient.Application.csproj" />
+    <ProjectReference Include="..\Ambient.Infrastructure\Ambient.Infrastructure.csproj" />
+    <ProjectReference Include="..\Ambient.Client.Domain\Ambient.Client.Domain.csproj" />
+    <ProjectReference Include="..\Ambient.Client.Application\Ambient.Client.Application.csproj" />
+    <ProjectReference Include="..\Ambient.Client.Infrastructure\Ambient.Client.Infrastructure.csproj" />
+    <PackageReference Include="SkiaSharp" Version="2.88.8" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Party - Plugins &amp; Stats</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="hero">
+    <h1>Block Party</h1>
+    <p>Open-source plugins and live statistics for the Block Party voxel game by Ambient Games.</p>
+</div>
+
+<nav>
+    <a href="#plugins">Plugins</a>
+    <a href="#getting-started">Getting Started</a>
+    <a href="#stats">Live Stats</a>
+    <a href="https://github.com/AmbientGames/BlockParty">GitHub</a>
+</nav>
+
+<div class="container">
+
+    <section id="plugins">
+        <h2>Included Plugins</h2>
+        <div class="plugin-grid">
+            <div class="plugin-card">
+                <h3>Draw Oriented</h3>
+                <p>Draw blocks oriented along the surface you click. Draws one layer at a time.</p>
+            </div>
+            <div class="plugin-card">
+                <h3>Draw Roof</h3>
+                <p>Draw roof-shaped blocks automatically along the selected surface.</p>
+            </div>
+            <div class="plugin-card">
+                <h3>Draw Walls</h3>
+                <p>Draw wall structures along a surface with a single click.</p>
+            </div>
+            <div class="plugin-card">
+                <h3>Fill Top</h3>
+                <p>Fill the top surface of a selection with the current block type.</p>
+            </div>
+            <div class="plugin-card">
+                <h3>Paint Oriented</h3>
+                <p>Paint existing blocks oriented along the surface normal.</p>
+            </div>
+            <div class="plugin-card">
+                <h3>Erase Oriented</h3>
+                <p>Erase blocks oriented along the surface you click.</p>
+            </div>
+            <div class="plugin-card">
+                <h3>Alternate</h3>
+                <p>Draw blocks in an alternating pattern for decorative surfaces.</p>
+            </div>
+            <div class="plugin-card">
+                <h3>CubeXYZ</h3>
+                <p>Import 3D models from CubeXYZ format into the voxel world.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="getting-started">
+        <h2>Getting Started</h2>
+        <p>Create your own plugins by implementing the <code>IPlugin</code> interface. Reference the game assemblies from your Block Party installation directory.</p>
+
+        <pre><code>using Ambient.Client.Domain.Enums;
+using Ambient.Client.Domain.Plugins;
+using Ambient.Client.Domain.SceneGraph;
+
+namespace Ambient.Plugins;
+
+public class MyPlugin : IPlugin
+{
+    PluginCategory IPlugin.Category =&gt; PluginCategory.Draw;
+    string IPlugin.Description =&gt; "My custom plugin.";
+    string IPlugin.Name =&gt; "My Plugin";
+    SKBitmap IPlugin.Icon =&gt; /* your 32x32 icon */;
+
+    public void Apply(VoxelWorld world, EditorState editorState)
+    {
+        // Your plugin logic here
+        int highlightCount = world.GetHighlightCount();
+        for (int i = 0; i &lt; highlightCount; i++)
+        {
+            var block = world.GetHighlightItem(i);
+            if (world.GetVoxel(block) == 0)
+            {
+                world.SetVoxel(block, editorState.Pattern);
+            }
+        }
+    }
+}</code></pre>
+
+        <p>Build your project as a class library, then place the resulting DLL in the game's installation folder. The game will automatically discover and load your plugin.</p>
+    </section>
+
+    <section id="stats">
+        <h2>Live Stats</h2>
+        <div id="stats-container">
+            <div class="stat-card">
+                <div class="value" id="stat-players">--</div>
+                <div class="label">Players Online</div>
+            </div>
+            <div class="stat-card">
+                <div class="value" id="stat-worlds">--</div>
+                <div class="label">Active Worlds</div>
+            </div>
+            <div class="stat-card">
+                <div class="value" id="stat-chunks">--</div>
+                <div class="label">Chunks Claimed</div>
+            </div>
+            <div class="stat-card">
+                <div class="value" id="stat-comments">--</div>
+                <div class="label">Comments Posted</div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    &copy; 2012&ndash;2026 Ambient Games. Licensed under MIT.
+</footer>
+
+<script>
+    async function loadStats() {
+        try {
+            const response = await fetch('data/stats.json');
+            if (!response.ok) return;
+            const stats = await response.json();
+            if (stats.playersOnline !== undefined)
+                document.getElementById('stat-players').textContent = stats.playersOnline.toLocaleString();
+            if (stats.activeWorlds !== undefined)
+                document.getElementById('stat-worlds').textContent = stats.activeWorlds.toLocaleString();
+            if (stats.chunksClaimed !== undefined)
+                document.getElementById('stat-chunks').textContent = stats.chunksClaimed.toLocaleString();
+            if (stats.commentsPosted !== undefined)
+                document.getElementById('stat-comments').textContent = stats.commentsPosted.toLocaleString();
+        } catch (e) {
+            // Stats not available yet
+        }
+    }
+    loadStats();
+</script>
+
+</body>
+</html>
