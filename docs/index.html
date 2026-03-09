@@ -14,13 +14,65 @@
 </div>
 
 <nav>
+    <a href="#stats">Live Stats</a>
     <a href="#plugins">Plugins</a>
     <a href="#getting-started">Getting Started</a>
-    <a href="#stats">Live Stats</a>
     <a href="https://github.com/AmbientGames/BlockParty">GitHub</a>
 </nav>
 
 <div class="container">
+
+    <section id="stats">
+        <h2>Live Stats</h2>
+        <div class="stats-overview">
+            <div class="stat-card">
+                <div class="value" id="stat-online">--</div>
+                <div class="label">Players Online</div>
+            </div>
+            <div class="stat-card">
+                <div class="value" id="stat-players">--</div>
+                <div class="label">Total Players</div>
+            </div>
+            <div class="stat-card">
+                <div class="value" id="stat-chunks">--</div>
+                <div class="label">Chunks Built</div>
+            </div>
+            <div class="stat-card">
+                <div class="value" id="stat-reactions">--</div>
+                <div class="label">Reactions</div>
+            </div>
+            <div class="stat-card">
+                <div class="value" id="stat-visits">--</div>
+                <div class="label">Visits</div>
+            </div>
+            <div class="stat-card">
+                <div class="value" id="stat-comments">--</div>
+                <div class="label">Comments</div>
+            </div>
+        </div>
+
+        <div class="stats-details">
+            <div class="stats-column">
+                <h3>Worlds</h3>
+                <div id="worlds-list" class="stats-table-wrap">
+                    <p class="muted">Loading...</p>
+                </div>
+            </div>
+            <div class="stats-column">
+                <h3>Leaderboard</h3>
+                <div id="leaderboard" class="stats-table-wrap">
+                    <p class="muted">Loading...</p>
+                </div>
+            </div>
+        </div>
+
+        <h3>Top Builds</h3>
+        <div id="top-builds" class="stats-table-wrap">
+            <p class="muted">Loading...</p>
+        </div>
+
+        <p class="muted stats-updated" id="stats-updated"></p>
+    </section>
 
     <section id="plugins">
         <h2>Included Plugins</h2>
@@ -95,28 +147,6 @@ public class MyPlugin : IPlugin
         <p>Build your project as a class library, then place the resulting DLL in the game's installation folder. The game will automatically discover and load your plugin.</p>
     </section>
 
-    <section id="stats">
-        <h2>Live Stats</h2>
-        <div id="stats-container">
-            <div class="stat-card">
-                <div class="value" id="stat-players">--</div>
-                <div class="label">Players Online</div>
-            </div>
-            <div class="stat-card">
-                <div class="value" id="stat-worlds">--</div>
-                <div class="label">Active Worlds</div>
-            </div>
-            <div class="stat-card">
-                <div class="value" id="stat-chunks">--</div>
-                <div class="label">Chunks Claimed</div>
-            </div>
-            <div class="stat-card">
-                <div class="value" id="stat-comments">--</div>
-                <div class="label">Comments Posted</div>
-            </div>
-        </div>
-    </section>
-
 </div>
 
 <footer>
@@ -124,19 +154,61 @@ public class MyPlugin : IPlugin
 </footer>
 
 <script>
+    const fmt = n => (n ?? 0).toLocaleString();
+
+    function buildTable(headers, rows) {
+        if (!rows || rows.length === 0) return '<p class="muted">No data yet.</p>';
+        let html = '<table><thead><tr>';
+        headers.forEach(h => html += `<th>${h.label}</th>`);
+        html += '</tr></thead><tbody>';
+        rows.forEach(row => {
+            html += '<tr>';
+            headers.forEach(h => html += `<td>${h.fmt ? h.fmt(row[h.key]) : row[h.key]}</td>`);
+            html += '</tr>';
+        });
+        html += '</tbody></table>';
+        return html;
+    }
+
     async function loadStats() {
         try {
             const response = await fetch('data/stats.json');
             if (!response.ok) return;
-            const stats = await response.json();
-            if (stats.playersOnline !== undefined)
-                document.getElementById('stat-players').textContent = stats.playersOnline.toLocaleString();
-            if (stats.activeWorlds !== undefined)
-                document.getElementById('stat-worlds').textContent = stats.activeWorlds.toLocaleString();
-            if (stats.chunksClaimed !== undefined)
-                document.getElementById('stat-chunks').textContent = stats.chunksClaimed.toLocaleString();
-            if (stats.commentsPosted !== undefined)
-                document.getElementById('stat-comments').textContent = stats.commentsPosted.toLocaleString();
+            const s = await response.json();
+
+            document.getElementById('stat-online').textContent = fmt(s.playersOnline);
+            document.getElementById('stat-players').textContent = fmt(s.totals?.players);
+            document.getElementById('stat-chunks').textContent = fmt(s.totals?.chunks);
+            document.getElementById('stat-reactions').textContent = fmt(s.totals?.reactions);
+            document.getElementById('stat-visits').textContent = fmt(s.totals?.visits);
+            document.getElementById('stat-comments').textContent = fmt(s.totals?.comments);
+
+            document.getElementById('worlds-list').innerHTML = buildTable(
+                [
+                    { label: 'World', key: 'name' },
+                    { label: 'Online', key: 'activePlayers', fmt },
+                    { label: 'Chunks', key: 'totalChunks', fmt }
+                ], s.worlds);
+
+            document.getElementById('leaderboard').innerHTML = buildTable(
+                [
+                    { label: 'Player', key: 'displayName' },
+                    { label: 'Rep', key: 'reputation', fmt },
+                    { label: 'Blocks', key: 'blocksPlaced', fmt },
+                    { label: 'Sectors', key: 'sectorsOwned', fmt }
+                ], s.leaderboard);
+
+            document.getElementById('top-builds').innerHTML = buildTable(
+                [
+                    { label: 'Owner', key: 'ownerName' },
+                    { label: 'Rep', key: 'reputation', fmt },
+                    { label: 'Visits', key: 'visitCount', fmt }
+                ], s.topBuilds);
+
+            if (s.generatedUtc) {
+                const d = new Date(s.generatedUtc);
+                document.getElementById('stats-updated').textContent = 'Last updated: ' + d.toLocaleString();
+            }
         } catch (e) {
             // Stats not available yet
         }
