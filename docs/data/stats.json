@@ -1,8 +1,8 @@
 {
-  "generatedUtc": "2026-03-14T22:06:42.0264455Z",
+  "generatedUtc": "2026-03-14T22:09:47.9593223Z",
   "playersOnline": 1,
   "totals": {
-    "players": 1,
+    "players": 2,
     "chunks": 12,
     "reactions": 0,
     "visits": 1,
@@ -21,7 +21,7 @@
     {
       "id": "6c4e7b5d-3a2e-4f1c-8a5b-1d2e4f7a9c3b",
       "name": "Starter Canvas. Say Hi!",
-      "activePlayers": 1,
+      "activePlayers": 0,
       "totalChunks": 0,
       "leaderboard": [
         {
@@ -37,9 +37,17 @@
     {
       "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567890",
       "name": "90\u00B0 North",
-      "activePlayers": 0,
+      "activePlayers": 1,
       "totalChunks": 0,
-      "leaderboard": [],
+      "leaderboard": [
+        {
+          "displayName": "richardborsheim",
+          "reputation": 0,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 4
+        }
+      ],
       "topBuilds": []
     },
     {
