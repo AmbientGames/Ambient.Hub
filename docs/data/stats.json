@@ -1,6 +1,6 @@
 {
-  "generatedUtc": "2026-03-15T00:55:35.8072317Z",
-  "playersOnline": 1,
+  "generatedUtc": "2026-03-15T01:02:39.0074562Z",
+  "playersOnline": 0,
   "totals": {
     "players": 3,
     "chunks": 28,
@@ -37,13 +37,13 @@
     {
       "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567890",
       "name": "90\u00B0 North",
-      "activePlayers": 1,
+      "activePlayers": 0,
       "totalChunks": 0,
       "leaderboard": [
         {
           "displayName": "richardborsheim",
           "reputation": 0,
-          "blocksPlaced": 0,
+          "blocksPlaced": 16,
           "likesReceived": 0,
           "sectorsOwned": 4
         }
