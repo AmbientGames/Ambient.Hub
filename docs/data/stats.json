@@ -1,6 +1,6 @@
 {
-  "generatedUtc": "2026-03-15T04:19:07.1894951Z",
-  "playersOnline": 0,
+  "generatedUtc": "2026-03-15T04:23:05.9099363Z",
+  "playersOnline": 1,
   "totals": {
     "players": 6,
     "chunks": 50,
@@ -58,7 +58,7 @@
     {
       "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567890",
       "name": "90\u00B0 North",
-      "activePlayers": 0,
+      "activePlayers": 1,
       "totalChunks": 0,
       "leaderboard": [
         {
