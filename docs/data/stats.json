@@ -1,5 +1,5 @@
 {
-  "generatedUtc": "2026-03-18T03:40:07.6090009Z",
+  "generatedUtc": "2026-03-18T13:18:48.8431334Z",
   "playersOnline": 0,
   "totals": {
     "players": 0,
@@ -53,14 +53,6 @@
     {
       "id": "b5e29d84-f063-4a27-8c19-3e7b0a95d2c4",
       "name": "BlockPartyWild",
-      "activePlayers": 0,
-      "totalChunks": 0,
-      "leaderboard": [],
-      "topBuilds": []
-    },
-    {
-      "id": "a0b1c2d3-e4f5-6789-abcd-ef0123456789",
-      "name": "90North",
       "activePlayers": 0,
       "totalChunks": 0,
       "leaderboard": [],
