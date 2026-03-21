@@ -1,5 +1,5 @@
 {
-  "generatedUtc": "2026-03-21T12:25:30.4839000Z",
+  "generatedUtc": "2026-03-21T12:41:36.6585486Z",
   "playersOnline": 0,
   "totals": {
     "players": 0,
@@ -29,6 +29,14 @@
     {
       "id": "8703b92a-5ab6-4c8e-8bca-f839f0f42f0f",
       "name": "Paint",
+      "activePlayers": 0,
+      "totalChunks": 0,
+      "leaderboard": [],
+      "topBuilds": []
+    },
+    {
+      "id": "b5e29d84-f063-4a27-8c19-3e7b0a95d2c4",
+      "name": "Wild",
       "activePlayers": 0,
       "totalChunks": 0,
       "leaderboard": [],
