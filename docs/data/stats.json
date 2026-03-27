@@ -1,11 +1,11 @@
 {
-  "generatedUtc": "2026-03-27T14:37:48.9818233Z",
+  "generatedUtc": "2026-03-27T14:41:52.5330342Z",
   "playersOnline": 0,
   "totals": {
     "players": 1,
-    "chunks": 0,
+    "chunks": 1,
     "reactions": 0,
-    "visits": 0,
+    "visits": 1,
     "follows": 0,
     "comments": 0
   },
@@ -19,7 +19,7 @@
         {
           "displayName": "richardborsheim",
           "reputation": 0,
-          "blocksPlaced": 0,
+          "blocksPlaced": 1014,
           "likesReceived": 0,
           "sectorsOwned": 0
         }
