@@ -11,9 +11,6 @@ namespace Ambient.Plugins;
 /// </summary>
 public class PaintOriented : IPlugin
 {
-    // *********************************************************************************
-    #region Explicit Interface Properties
-
     /// <summary>
     /// Gets the plug-in category.
     /// </summary>
@@ -58,10 +55,6 @@ public class PaintOriented : IPlugin
         }
     }
 
-    #endregion
-
-    #region Explicit Interface Methods
-
     /// <summary>
     /// Implements application of the plug-in
     /// </summary>
@@ -96,6 +89,4 @@ public class PaintOriented : IPlugin
             }
         }
     }
-
-    #endregion
 }
