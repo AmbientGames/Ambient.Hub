@@ -1,17 +1,13 @@
 {
-  "generatedUtc": null,
-  "playersOnline": 0,
+  "generatedUtc": "2026-04-05T08:15:36.5742249Z",
+  "game": "90\u00B0 North: Dash and Cache",
   "totals": {
-    "players": 0,
-    "chunks": 0,
-    "reactions": 0,
-    "visits": 0,
-    "follows": 0,
-    "comments": 0
+    "players": 1,
+    "completions": 0,
+    "deathTraces": 0,
+    "geoCaches": 0
   },
-  "worlds": [],
-  "recentActivity": {
-    "periodHours": 24,
-    "events": []
-  }
+  "speedrunLeaderboard": [],
+  "fullCompletionLeaderboard": [],
+  "geoCacheLeaderboard": []
 }
