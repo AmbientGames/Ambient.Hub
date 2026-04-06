@@ -1,5 +1,5 @@
 {
-  "generatedUtc": "2026-04-06T02:47:43.8925125Z",
+  "generatedUtc": "2026-04-06T03:07:47.3049109Z",
   "playersOnline": 0,
   "totals": {
     "players": 0,
@@ -9,24 +9,7 @@
     "follows": 0,
     "comments": 0
   },
-  "worlds": [
-    {
-      "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567890",
-      "name": "90North",
-      "activePlayers": 0,
-      "totalChunks": 0,
-      "leaderboard": [],
-      "topBuilds": []
-    },
-    {
-      "id": "a1b2c3d4-e5f6-7890-abcd-ef9876543210",
-      "name": "90NorthExplorer",
-      "activePlayers": 0,
-      "totalChunks": 0,
-      "leaderboard": [],
-      "topBuilds": []
-    }
-  ],
+  "worlds": [],
   "recentActivity": {
     "periodHours": 24,
     "events": []
