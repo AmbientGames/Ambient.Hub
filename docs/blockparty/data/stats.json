@@ -1,38 +1,26 @@
 {
-  "generatedUtc": "2026-04-12T23:24:31.7645848Z",
+  "generatedUtc": "2026-04-13T00:04:56.2938528Z",
   "playersOnline": 0,
   "totals": {
-    "players": 10,
-    "chunks": 679,
-    "reactions": 30,
+    "players": 0,
+    "chunks": 0,
+    "reactions": 0,
     "visits": 0,
-    "follows": 90,
-    "comments": 81
+    "follows": 0,
+    "comments": 0
   },
-  "worlds": [],
+  "worlds": [
+    {
+      "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "90North",
+      "activePlayers": 0,
+      "totalChunks": 0,
+      "leaderboard": [],
+      "topBuilds": []
+    }
+  ],
   "recentActivity": {
     "periodHours": 24,
-    "events": [
-      {
-        "eventType": "FollowReceived",
-        "count": 90
-      },
-      {
-        "eventType": "PlayerEnteredChunk",
-        "count": 1
-      },
-      {
-        "eventType": "FolloweeStartedBuilding",
-        "count": 1
-      },
-      {
-        "eventType": "WalletBalanceChange",
-        "count": 1
-      },
-      {
-        "eventType": "ShopkeeperSale",
-        "count": 1
-      }
-    ]
+    "events": []
   }
 }
