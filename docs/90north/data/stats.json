@@ -1,13 +1,81 @@
 {
-  "generatedUtc": "2026-04-15T14:09:37.7347017Z",
+  "generatedUtc": "2026-04-15T14:39:15.1586174Z",
   "game": "90\u00B0 North: Dash \u0026 Cache",
   "totals": {
-    "players": 0,
-    "completions": 0,
-    "deathTraces": 0,
-    "geoCaches": 0
+    "players": 10,
+    "completions": 10,
+    "deathTraces": 18,
+    "geoCaches": 9
   },
-  "speedrunLeaderboard": [],
+  "speedrunLeaderboard": [
+    {
+      "displayName": "richardborsheim",
+      "elapsedSeconds": 195.1819388,
+      "completedUtc": "2026-04-15T14:13:08.7310000Z",
+      "tokensAcquired": 0,
+      "tokensTotal": 0,
+      "completionPercent": null,
+      "isFullCompletion": false
+    }
+  ],
   "fullCompletionLeaderboard": [],
-  "geoCacheLeaderboard": []
+  "leaderboardsByBucket": {
+    "100": [],
+    "90": [],
+    "80": [],
+    "70": [],
+    "60": [],
+    "50": [],
+    "40": [],
+    "30": [],
+    "20": [],
+    "10": []
+  },
+  "geoCacheLeaderboard": [
+    {
+      "displayName": "Test_Warrior",
+      "cachesPlaced": 1,
+      "activeCaches": 1
+    },
+    {
+      "displayName": "Test_Barbarian",
+      "cachesPlaced": 1,
+      "activeCaches": 1
+    },
+    {
+      "displayName": "Test_Rogue",
+      "cachesPlaced": 1,
+      "activeCaches": 1
+    },
+    {
+      "displayName": "Test_Ranger",
+      "cachesPlaced": 1,
+      "activeCaches": 1
+    },
+    {
+      "displayName": "Test_Mage",
+      "cachesPlaced": 1,
+      "activeCaches": 1
+    },
+    {
+      "displayName": "Test_Wizard",
+      "cachesPlaced": 1,
+      "activeCaches": 1
+    },
+    {
+      "displayName": "Test_Cleric",
+      "cachesPlaced": 1,
+      "activeCaches": 1
+    },
+    {
+      "displayName": "Test_Bard",
+      "cachesPlaced": 1,
+      "activeCaches": 1
+    },
+    {
+      "displayName": "Test_Summoner",
+      "cachesPlaced": 1,
+      "activeCaches": 1
+    }
+  ]
 }
