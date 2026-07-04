@@ -1,13 +1,13 @@
 {
-  "generatedUtc": "2026-07-04T00:27:37.7466615Z",
+  "generatedUtc": "2026-07-04T00:35:36.2066103Z",
   "playersOnline": 0,
   "totals": {
-    "players": 10,
-    "chunks": 103,
-    "reactions": 90,
-    "visits": 3,
-    "follows": 90,
-    "comments": 90
+    "players": 0,
+    "chunks": 0,
+    "reactions": 0,
+    "visits": 0,
+    "follows": 0,
+    "comments": 0
   },
   "worlds": [
     {
@@ -15,78 +15,7 @@
       "name": "Paint",
       "activePlayers": 0,
       "totalChunks": 0,
-      "leaderboard": [
-        {
-          "displayName": "Test_Cleric",
-          "reputation": 117,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 1
-        },
-        {
-          "displayName": "Test_Summoner",
-          "reputation": 117,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 1
-        },
-        {
-          "displayName": "Test_Rogue",
-          "reputation": 117,
-          "blocksPlaced": 1,
-          "likesReceived": 0,
-          "sectorsOwned": 1
-        },
-        {
-          "displayName": "Test_Mage",
-          "reputation": 117,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 1
-        },
-        {
-          "displayName": "Test_Warrior",
-          "reputation": 117,
-          "blocksPlaced": 1,
-          "likesReceived": 0,
-          "sectorsOwned": 1
-        },
-        {
-          "displayName": "Test_Bard",
-          "reputation": 27,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        },
-        {
-          "displayName": "Test_Ranger",
-          "reputation": 27,
-          "blocksPlaced": 1,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        },
-        {
-          "displayName": "Test_Barbarian",
-          "reputation": 27,
-          "blocksPlaced": 1,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        },
-        {
-          "displayName": "Test_Wizard",
-          "reputation": 27,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        },
-        {
-          "displayName": "richardborsheim",
-          "reputation": 0,
-          "blocksPlaced": 3817,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        }
-      ],
+      "leaderboard": [],
       "topBuilds": []
     },
     {
