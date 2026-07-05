@@ -1,17 +1,11 @@
 {
-  "generatedUtc": "2026-04-27T11:59:56.6804400Z",
+  "generatedUtc": "2026-07-05T16:30:26.8481234Z",
   "game": "Everest Trail",
   "totals": {
-    "players": 1,
+    "players": 0,
     "completions": 0,
     "activeMarkets": 0
   },
   "trekLeaderboard": [],
-  "landLeaderboard": [
-    {
-      "displayName": "richardborsheim",
-      "sectorsOwned": 1,
-      "reputation": 0
-    }
-  ]
+  "landLeaderboard": []
 }
