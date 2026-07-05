@@ -1,13 +1,13 @@
 {
-  "generatedUtc": "2026-07-05T16:49:07.7218982Z",
+  "generatedUtc": "2026-07-05T16:54:37.7643680Z",
   "playersOnline": 0,
   "totals": {
-    "players": 0,
-    "chunks": 0,
-    "reactions": 0,
+    "players": 10,
+    "chunks": 1124,
+    "reactions": 90,
     "visits": 0,
-    "follows": 0,
-    "comments": 0
+    "follows": 90,
+    "comments": 90
   },
   "worlds": [
     {
@@ -17,18 +17,39 @@
       "totalChunks": 0,
       "leaderboard": [],
       "topBuilds": []
-    },
-    {
-      "id": "81bdd40b-0775-478e-b52c-377d5664f7a3",
-      "name": "Paint",
-      "activePlayers": 0,
-      "totalChunks": 0,
-      "leaderboard": [],
-      "topBuilds": []
     }
   ],
   "recentActivity": {
     "periodHours": 24,
-    "events": []
+    "events": [
+      {
+        "eventType": "FollowReceived",
+        "count": 90
+      },
+      {
+        "eventType": "CacheLogbookEntry",
+        "count": 27
+      },
+      {
+        "eventType": "CachePlaced",
+        "count": 9
+      },
+      {
+        "eventType": "PlayerEnteredChunk",
+        "count": 1
+      },
+      {
+        "eventType": "FolloweeStartedBuilding",
+        "count": 1
+      },
+      {
+        "eventType": "WalletBalanceChange",
+        "count": 1
+      },
+      {
+        "eventType": "ShopkeeperSale",
+        "count": 1
+      }
+    ]
   }
 }
