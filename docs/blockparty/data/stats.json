@@ -1,13 +1,13 @@
 {
-  "generatedUtc": "2026-07-19T04:16:21.6956866Z",
+  "generatedUtc": "2026-07-19T04:19:45.4068477Z",
   "playersOnline": 0,
   "totals": {
-    "players": 10,
-    "chunks": 384,
-    "reactions": 81,
+    "players": 30,
+    "chunks": 557,
+    "reactions": 252,
     "visits": 0,
     "follows": 90,
-    "comments": 90
+    "comments": 270
   },
   "worlds": [
     {
@@ -15,7 +15,78 @@
       "name": "Paint",
       "activePlayers": 0,
       "totalChunks": 0,
-      "leaderboard": [],
+      "leaderboard": [
+        {
+          "displayName": "Test_Rogue",
+          "reputation": 117,
+          "blocksPlaced": 1,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Test_Summoner",
+          "reputation": 117,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Test_Warrior",
+          "reputation": 117,
+          "blocksPlaced": 1,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Test_Cleric",
+          "reputation": 117,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Test_Mage",
+          "reputation": 117,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Test_Ranger",
+          "reputation": 117,
+          "blocksPlaced": 1,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Test_Barbarian",
+          "reputation": 117,
+          "blocksPlaced": 1,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Test_Bard",
+          "reputation": 27,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "richardborsheim",
+          "reputation": 27,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Test_Wizard",
+          "reputation": 27,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        }
+      ],
       "topBuilds": []
     },
     {
@@ -31,40 +102,40 @@
     "periodHours": 24,
     "events": [
       {
+        "eventType": "CommentReceived",
+        "count": 169
+      },
+      {
+        "eventType": "ReactionReceived",
+        "count": 153
+      },
+      {
         "eventType": "FollowReceived",
         "count": 90
       },
       {
-        "eventType": "CommentReceived",
-        "count": 53
-      },
-      {
-        "eventType": "ReactionReceived",
-        "count": 45
-      },
-      {
         "eventType": "CacheLogbookEntry",
-        "count": 27
+        "count": 81
       },
       {
         "eventType": "CachePlaced",
-        "count": 9
+        "count": 27
       },
       {
         "eventType": "PlayerEnteredChunk",
-        "count": 1
+        "count": 3
       },
       {
         "eventType": "FolloweeStartedBuilding",
-        "count": 1
+        "count": 3
       },
       {
         "eventType": "WalletBalanceChange",
-        "count": 1
+        "count": 3
       },
       {
         "eventType": "ShopkeeperSale",
-        "count": 1
+        "count": 3
       }
     ]
   }
