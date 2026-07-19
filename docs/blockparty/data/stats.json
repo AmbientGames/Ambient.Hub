@@ -1,5 +1,5 @@
 {
-  "generatedUtc": "2026-07-19T19:02:54.0870060Z",
+  "generatedUtc": "2026-07-19T20:41:23.1213527Z",
   "playersOnline": 0,
   "totals": {
     "players": 30,
@@ -87,6 +87,14 @@
           "sectorsOwned": 0
         }
       ],
+      "topBuilds": []
+    },
+    {
+      "id": "81bdd40b-0775-478e-b52c-377d5664f7a3",
+      "name": "Paint",
+      "activePlayers": 0,
+      "totalChunks": 0,
+      "leaderboard": [],
       "topBuilds": []
     }
   ],
