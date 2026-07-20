@@ -1,13 +1,13 @@
 {
-  "generatedUtc": "2026-07-19T23:31:52.6910110Z",
+  "generatedUtc": "2026-07-20T23:18:59.9550962Z",
   "playersOnline": 0,
   "totals": {
-    "players": 10,
-    "chunks": 80,
-    "reactions": 81,
+    "players": 0,
+    "chunks": 0,
+    "reactions": 0,
     "visits": 0,
-    "follows": 90,
-    "comments": 90
+    "follows": 0,
+    "comments": 0
   },
   "worlds": [
     {
@@ -29,43 +29,6 @@
   ],
   "recentActivity": {
     "periodHours": 24,
-    "events": [
-      {
-        "eventType": "FollowReceived",
-        "count": 90
-      },
-      {
-        "eventType": "CommentReceived",
-        "count": 53
-      },
-      {
-        "eventType": "ReactionReceived",
-        "count": 45
-      },
-      {
-        "eventType": "CacheLogbookEntry",
-        "count": 27
-      },
-      {
-        "eventType": "CachePlaced",
-        "count": 9
-      },
-      {
-        "eventType": "PlayerEnteredChunk",
-        "count": 1
-      },
-      {
-        "eventType": "FolloweeStartedBuilding",
-        "count": 1
-      },
-      {
-        "eventType": "WalletBalanceChange",
-        "count": 1
-      },
-      {
-        "eventType": "ShopkeeperSale",
-        "count": 1
-      }
-    ]
+    "events": []
   }
 }
