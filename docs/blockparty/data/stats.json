@@ -1,12 +1,12 @@
 {
-  "generatedUtc": "2026-08-02T12:29:00.5510742Z",
+  "generatedUtc": "2026-08-02T12:31:03.7621432Z",
   "playersOnline": 0,
   "totals": {
-    "players": 0,
-    "chunks": 0,
-    "reactions": 0,
+    "players": 10,
+    "chunks": 80,
+    "reactions": 68,
     "visits": 0,
-    "follows": 0,
+    "follows": 90,
     "comments": 0
   },
   "worlds": [
@@ -21,6 +21,19 @@
   ],
   "recentActivity": {
     "periodHours": 24,
-    "events": []
+    "events": [
+      {
+        "eventType": "FollowReceived",
+        "count": 90
+      },
+      {
+        "eventType": "ReactionReceived",
+        "count": 37
+      },
+      {
+        "eventType": "CachePlaced",
+        "count": 9
+      }
+    ]
   }
 }
