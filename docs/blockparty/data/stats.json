@@ -1,15 +1,24 @@
 {
-  "generatedUtc": "2026-08-02T12:38:09.3947292Z",
+  "generatedUtc": "2026-08-02T12:49:59.6251232Z",
   "playersOnline": 0,
   "totals": {
     "players": 10,
-    "chunks": 384,
+    "chunks": 436,
     "reactions": 81,
     "visits": 0,
     "follows": 90,
     "comments": 90
   },
-  "worlds": [],
+  "worlds": [
+    {
+      "id": "6c4e7b5d-3a2e-4f1c-8a5b-1d2e4f7a9c3b",
+      "name": "Paint",
+      "activePlayers": 0,
+      "totalChunks": 0,
+      "leaderboard": [],
+      "topBuilds": []
+    }
+  ],
   "recentActivity": {
     "periodHours": 24,
     "events": [
