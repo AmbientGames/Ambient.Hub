@@ -1,9 +1,9 @@
 {
-  "generatedUtc": "2026-08-09T21:18:22.2049558Z",
+  "generatedUtc": "2026-08-10T00:21:15.7687768Z",
   "playersOnline": 0,
   "totals": {
-    "players": 9,
-    "chunks": 80,
+    "players": 10,
+    "chunks": 109,
     "reactions": 0,
     "visits": 0,
     "follows": 0,
@@ -14,17 +14,38 @@
       "id": "6c4e7b5d-3a2e-4f1c-8a5b-1d2e4f7a9c3b",
       "name": "Paint",
       "activePlayers": 0,
-      "totalChunks": 80,
+      "totalChunks": 109,
       "leaderboard": [
         {
-          "displayName": "Mountain Guardian",
+          "displayName": "Wandering Storyteller",
           "reputation": 0,
           "blocksPlaced": 1,
           "likesReceived": 0,
           "sectorsOwned": 0
         },
         {
-          "displayName": "Yak Herder",
+          "displayName": "Spirit Caller",
+          "reputation": 0,
+          "blocksPlaced": 1,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Sherpa Guide",
+          "reputation": 0,
+          "blocksPlaced": 1,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Buddhist Monk",
+          "reputation": 0,
+          "blocksPlaced": 1,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Mountain Mystic",
           "reputation": 0,
           "blocksPlaced": 1,
           "likesReceived": 0,
@@ -38,44 +59,30 @@
           "sectorsOwned": 0
         },
         {
-          "displayName": "Sherpa Guide",
+          "displayName": "Mountain Guardian",
+          "reputation": 0,
+          "blocksPlaced": 1,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Administrator",
           "reputation": 0,
           "blocksPlaced": 0,
           "likesReceived": 0,
           "sectorsOwned": 0
         },
         {
-          "displayName": "Mountain Mystic",
+          "displayName": "Yak Herder",
           "reputation": 0,
-          "blocksPlaced": 0,
+          "blocksPlaced": 1,
           "likesReceived": 0,
           "sectorsOwned": 0
         },
         {
           "displayName": "Tantric Lama",
           "reputation": 0,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        },
-        {
-          "displayName": "Buddhist Monk",
-          "reputation": 0,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        },
-        {
-          "displayName": "Wandering Storyteller",
-          "reputation": 0,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        },
-        {
-          "displayName": "Spirit Caller",
-          "reputation": 0,
-          "blocksPlaced": 0,
+          "blocksPlaced": 1,
           "likesReceived": 0,
           "sectorsOwned": 0
         }
