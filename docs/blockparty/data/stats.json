@@ -1,9 +1,9 @@
 {
-  "generatedUtc": "2026-08-15T16:46:51.3267276Z",
+  "generatedUtc": "2026-08-15T17:01:10.0135639Z",
   "playersOnline": 0,
   "totals": {
     "players": 100,
-    "chunks": 3529,
+    "chunks": 3618,
     "reactions": 808,
     "visits": 0,
     "follows": 90,
@@ -294,7 +294,7 @@
       "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567890",
       "name": "90North",
       "activePlayers": 0,
-      "totalChunks": 2510,
+      "totalChunks": 2598,
       "leaderboard": [
         {
           "displayName": "Mountain Scout",
