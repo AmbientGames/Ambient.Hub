@@ -1,17 +1,199 @@
 {
-  "generatedUtc": "2026-08-16T23:15:32.8307240Z",
+  "generatedUtc": "2026-08-16T23:18:44.0310185Z",
   "playersOnline": 0,
   "totals": {
-    "players": 0,
-    "chunks": 0,
-    "reactions": 0,
+    "players": 100,
+    "chunks": 1020,
+    "reactions": 711,
     "visits": 0,
-    "follows": 0,
-    "comments": 0
+    "follows": 90,
+    "comments": 600
   },
-  "worlds": [],
+  "worlds": [
+    {
+      "id": "c2b3d4e5-f6a7-8901-bcde-f12345678901",
+      "name": "EverestTrail",
+      "activePlayers": 0,
+      "totalChunks": 80,
+      "leaderboard": [
+        {
+          "displayName": "Mountain Scout",
+          "reputation": 8,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 1
+        },
+        {
+          "displayName": "Sherpa Guide",
+          "reputation": 8,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Mountain Guardian",
+          "reputation": 8,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Buddhist Monk",
+          "reputation": 8,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 1
+        },
+        {
+          "displayName": "Mountain Mystic",
+          "reputation": 8,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 1
+        },
+        {
+          "displayName": "Yak Herder",
+          "reputation": 8,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Tantric Lama",
+          "reputation": 8,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Wandering Storyteller",
+          "reputation": 5,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 1
+        },
+        {
+          "displayName": "Administrator",
+          "reputation": 0,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Spirit Caller",
+          "reputation": 0,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 1
+        }
+      ],
+      "topBuilds": [
+        {
+          "chunkId": "00200040-0042-0020-bcde-f12345678901",
+          "reputation": 0,
+          "visitCount": 0,
+          "ownerName": "Spirit Caller"
+        },
+        {
+          "chunkId": "00200041-0042-0020-bcde-f12345678901",
+          "reputation": 0,
+          "visitCount": 0,
+          "ownerName": "Spirit Caller"
+        },
+        {
+          "chunkId": "00200040-0041-0020-bcde-f12345678901",
+          "reputation": 0,
+          "visitCount": 0,
+          "ownerName": "Spirit Caller"
+        },
+        {
+          "chunkId": "00200043-0041-0020-bcde-f12345678901",
+          "reputation": 0,
+          "visitCount": 0,
+          "ownerName": "Spirit Caller"
+        },
+        {
+          "chunkId": "00200041-0041-0020-bcde-f12345678901",
+          "reputation": 0,
+          "visitCount": 0,
+          "ownerName": "Spirit Caller"
+        },
+        {
+          "chunkId": "00200043-0040-0020-bcde-f12345678901",
+          "reputation": 0,
+          "visitCount": 0,
+          "ownerName": "Spirit Caller"
+        },
+        {
+          "chunkId": "00200041-0040-0020-bcde-f12345678901",
+          "reputation": 0,
+          "visitCount": 0,
+          "ownerName": "Spirit Caller"
+        },
+        {
+          "chunkId": "00200040-0040-0020-bcde-f12345678901",
+          "reputation": 0,
+          "visitCount": 0,
+          "ownerName": "Spirit Caller"
+        },
+        {
+          "chunkId": "00200042-0040-0020-bcde-f12345678901",
+          "reputation": 0,
+          "visitCount": 0,
+          "ownerName": "Spirit Caller"
+        },
+        {
+          "chunkId": "00200042-0041-0020-bcde-f12345678901",
+          "reputation": 0,
+          "visitCount": 0,
+          "ownerName": "Spirit Caller"
+        }
+      ]
+    }
+  ],
   "recentActivity": {
     "periodHours": 24,
-    "events": []
+    "events": [
+      {
+        "eventType": "CacheLogbookEntry",
+        "count": 216
+      },
+      {
+        "eventType": "CommentReceived",
+        "count": 160
+      },
+      {
+        "eventType": "ReactionReceived",
+        "count": 128
+      },
+      {
+        "eventType": "CachePlaced",
+        "count": 90
+      },
+      {
+        "eventType": "FollowReceived",
+        "count": 90
+      },
+      {
+        "eventType": "ChunkPurchased",
+        "count": 27
+      },
+      {
+        "eventType": "PlayerEnteredChunk",
+        "count": 8
+      },
+      {
+        "eventType": "FolloweeStartedBuilding",
+        "count": 8
+      },
+      {
+        "eventType": "WalletBalanceChange",
+        "count": 8
+      },
+      {
+        "eventType": "ShopkeeperSale",
+        "count": 8
+      }
+    ]
   }
 }
