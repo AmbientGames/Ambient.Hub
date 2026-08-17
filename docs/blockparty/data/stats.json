@@ -1,12 +1,12 @@
 {
-  "generatedUtc": "2026-08-17T00:41:50.0929765Z",
+  "generatedUtc": "2026-08-17T01:32:18.5684252Z",
   "playersOnline": 0,
   "totals": {
     "players": 10,
     "chunks": 188,
     "reactions": 0,
     "visits": 0,
-    "follows": 30,
+    "follows": 13,
     "comments": 0
   },
   "worlds": [
@@ -156,7 +156,7 @@
     "events": [
       {
         "eventType": "FollowReceived",
-        "count": 34
+        "count": 18
       },
       {
         "eventType": "CachePlaced",
