@@ -1,12 +1,12 @@
 {
-  "generatedUtc": "2026-08-17T03:09:46.3636682Z",
+  "generatedUtc": "2026-08-17T04:10:32.5122124Z",
   "playersOnline": 0,
   "totals": {
     "players": 10,
-    "chunks": 188,
+    "chunks": 64,
     "reactions": 0,
     "visits": 0,
-    "follows": 49,
+    "follows": 0,
     "comments": 0
   },
   "worlds": [
@@ -14,56 +14,56 @@
       "id": "6c4e7b5d-3a2e-4f1c-8a5b-1d2e4f7a9c3b",
       "name": "Paint",
       "activePlayers": 0,
-      "totalChunks": 188,
+      "totalChunks": 64,
       "leaderboard": [
         {
           "displayName": "Wandering Storyteller",
           "reputation": 0,
-          "blocksPlaced": 1,
+          "blocksPlaced": 0,
           "likesReceived": 0,
-          "sectorsOwned": 1
+          "sectorsOwned": 0
         },
         {
           "displayName": "Spirit Caller",
           "reputation": 0,
-          "blocksPlaced": 1,
+          "blocksPlaced": 0,
           "likesReceived": 0,
           "sectorsOwned": 0
         },
         {
           "displayName": "Sherpa Guide",
           "reputation": 0,
-          "blocksPlaced": 1,
+          "blocksPlaced": 0,
           "likesReceived": 0,
           "sectorsOwned": 0
         },
         {
           "displayName": "Buddhist Monk",
           "reputation": 0,
-          "blocksPlaced": 1,
+          "blocksPlaced": 0,
           "likesReceived": 0,
           "sectorsOwned": 1
         },
         {
           "displayName": "Mountain Mystic",
           "reputation": 0,
-          "blocksPlaced": 1,
+          "blocksPlaced": 0,
           "likesReceived": 0,
           "sectorsOwned": 0
         },
         {
           "displayName": "Mountain Scout",
           "reputation": 0,
-          "blocksPlaced": 1,
+          "blocksPlaced": 0,
           "likesReceived": 0,
           "sectorsOwned": 1
         },
         {
           "displayName": "Mountain Guardian",
           "reputation": 0,
-          "blocksPlaced": 1,
+          "blocksPlaced": 0,
           "likesReceived": 0,
-          "sectorsOwned": -1
+          "sectorsOwned": 0
         },
         {
           "displayName": "Administrator",
@@ -75,14 +75,14 @@
         {
           "displayName": "Yak Herder",
           "reputation": 0,
-          "blocksPlaced": 1,
+          "blocksPlaced": 0,
           "likesReceived": 0,
           "sectorsOwned": 0
         },
         {
           "displayName": "Tantric Lama",
           "reputation": 0,
-          "blocksPlaced": 1,
+          "blocksPlaced": 0,
           "likesReceived": 0,
           "sectorsOwned": 0
         }
@@ -92,61 +92,61 @@
           "chunkId": "00200040-0042-0020-8a5b-1d2e4f7a9c3b",
           "reputation": 0,
           "visitCount": 0,
-          "ownerName": "Spirit Caller"
+          "ownerName": "Mountain Guardian"
         },
         {
           "chunkId": "00200041-0042-0020-8a5b-1d2e4f7a9c3b",
           "reputation": 0,
           "visitCount": 0,
-          "ownerName": "Spirit Caller"
+          "ownerName": "Mountain Guardian"
         },
         {
           "chunkId": "00200040-0041-0020-8a5b-1d2e4f7a9c3b",
           "reputation": 0,
           "visitCount": 0,
-          "ownerName": "Spirit Caller"
+          "ownerName": "Mountain Guardian"
         },
         {
           "chunkId": "00200043-0041-0020-8a5b-1d2e4f7a9c3b",
           "reputation": 0,
           "visitCount": 0,
-          "ownerName": "Spirit Caller"
+          "ownerName": "Mountain Guardian"
         },
         {
           "chunkId": "00200041-0041-0020-8a5b-1d2e4f7a9c3b",
           "reputation": 0,
           "visitCount": 0,
-          "ownerName": "Spirit Caller"
+          "ownerName": "Mountain Guardian"
         },
         {
           "chunkId": "00200043-0040-0020-8a5b-1d2e4f7a9c3b",
           "reputation": 0,
           "visitCount": 0,
-          "ownerName": "Spirit Caller"
+          "ownerName": "Mountain Guardian"
         },
         {
           "chunkId": "00200041-0040-0020-8a5b-1d2e4f7a9c3b",
           "reputation": 0,
           "visitCount": 0,
-          "ownerName": "Spirit Caller"
+          "ownerName": "Mountain Guardian"
         },
         {
           "chunkId": "00200040-0040-0020-8a5b-1d2e4f7a9c3b",
           "reputation": 0,
           "visitCount": 0,
-          "ownerName": "Spirit Caller"
+          "ownerName": "Mountain Guardian"
         },
         {
           "chunkId": "00200042-0040-0020-8a5b-1d2e4f7a9c3b",
           "reputation": 0,
           "visitCount": 0,
-          "ownerName": "Spirit Caller"
+          "ownerName": "Mountain Guardian"
         },
         {
           "chunkId": "00200042-0041-0020-8a5b-1d2e4f7a9c3b",
           "reputation": 0,
           "visitCount": 0,
-          "ownerName": "Spirit Caller"
+          "ownerName": "Mountain Guardian"
         }
       ]
     }
@@ -155,16 +155,12 @@
     "periodHours": 24,
     "events": [
       {
-        "eventType": "FollowReceived",
-        "count": 54
-      },
-      {
         "eventType": "CachePlaced",
-        "count": 9
+        "count": 7
       },
       {
         "eventType": "ChunkPurchased",
-        "count": 4
+        "count": 2
       }
     ]
   }
