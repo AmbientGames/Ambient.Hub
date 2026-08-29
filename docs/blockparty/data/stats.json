@@ -1,13 +1,13 @@
 {
-  "generatedUtc": "2026-08-29T23:42:27.6420058Z",
+  "generatedUtc": "2026-08-29T23:43:59.2848958Z",
   "playersOnline": 0,
   "totals": {
-    "players": 0,
-    "chunks": 0,
-    "reactions": 0,
+    "players": 1,
+    "chunks": 603,
+    "reactions": 72,
     "visits": 0,
-    "follows": 0,
-    "comments": 0
+    "follows": 72,
+    "comments": 72
   },
   "worlds": [
     {
@@ -17,10 +17,35 @@
       "totalChunks": 0,
       "leaderboard": [],
       "topBuilds": []
+    },
+    {
+      "id": "81bdd40b-0775-478e-b52c-377d5664f7a3",
+      "name": "Paint",
+      "activePlayers": 0,
+      "totalChunks": 0,
+      "leaderboard": [],
+      "topBuilds": []
     }
   ],
   "recentActivity": {
     "periodHours": 24,
-    "events": []
+    "events": [
+      {
+        "eventType": "FollowReceived",
+        "count": 72
+      },
+      {
+        "eventType": "CacheLogbookEntry",
+        "count": 27
+      },
+      {
+        "eventType": "CachePlaced",
+        "count": 9
+      },
+      {
+        "eventType": "ChunkPurchased",
+        "count": 4
+      }
+    ]
   }
 }
